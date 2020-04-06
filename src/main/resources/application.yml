@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: jws-gen-and-auth-service
+            
+server:
+  port: 20006
+  
+logging:
+  file: ./Logs/JWSGenAndAuthService.log
+  
+
+
+

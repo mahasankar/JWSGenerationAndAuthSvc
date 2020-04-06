@@ -1,0 +1,40 @@
+2020-04-06 18:39:59.317  INFO 12364 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-06 18:40:18.588  INFO 324 --- [main] s.j.JwsGenAndAuthServiceApplicationTests : Starting JwsGenAndAuthServiceApplicationTests on mahadev with PID 324 (started by mahadev in E:\Mahadev\AAWorkspace\jws-gen-and-auth-service)
+2020-04-06 18:40:18.590  INFO 324 --- [main] s.j.JwsGenAndAuthServiceApplicationTests : No active profile set, falling back to default profiles: default
+2020-04-06 18:40:20.674  INFO 324 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-06 18:40:21.462  INFO 324 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-06 18:40:21.557  INFO 324 --- [main] s.j.JwsGenAndAuthServiceApplicationTests : Started JwsGenAndAuthServiceApplicationTests in 3.652 seconds (JVM running for 5.029)
+2020-04-06 18:40:21.881  INFO 324 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-06 18:40:35.368  INFO 17060 --- [main] c.s.jws.JwsGenAndAuthServiceApplication  : Starting JwsGenAndAuthServiceApplication on mahadev with PID 17060 (E:\Mahadev\AAWorkspace\jws-gen-and-auth-service\target\classes started by mahadev in E:\Mahadev\AAWorkspace\jws-gen-and-auth-service)
+2020-04-06 18:40:35.372  INFO 17060 --- [main] c.s.jws.JwsGenAndAuthServiceApplication  : No active profile set, falling back to default profiles: default
+2020-04-06 18:40:36.779  INFO 17060 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 20006 (http)
+2020-04-06 18:40:36.789  INFO 17060 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-06 18:40:36.790  INFO 17060 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-06 18:40:36.852  INFO 17060 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-06 18:40:36.853  INFO 17060 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1435 ms
+2020-04-06 18:40:37.097  INFO 17060 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-06 18:40:37.234  INFO 17060 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-06 18:40:37.281  INFO 17060 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 20006 (http) with context path ''
+2020-04-06 18:40:37.284  INFO 17060 --- [main] c.s.jws.JwsGenAndAuthServiceApplication  : Started JwsGenAndAuthServiceApplication in 2.299 seconds (JVM running for 2.74)
+2020-04-06 18:41:59.368  INFO 17060 --- [http-nio-20006-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-06 18:41:59.368  INFO 17060 --- [http-nio-20006-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-06 18:41:59.376  INFO 17060 --- [http-nio-20006-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-04-06 18:41:59.436  INFO 17060 --- [http-nio-20006-exec-1] c.s.j.c.JWSAPIRequestController          : header-key-id => b26435f3-5ffb-435f-9f5f-86e45451500f
+2020-04-06 18:41:59.449  INFO 17060 --- [http-nio-20006-exec-1] c.s.j.c.JWSAPIRequestController          : payload => text
+2020-04-06 18:41:59.467  INFO 17060 --- [http-nio-20006-exec-1] c.s.j.c.JWSAPIRequestController          : sun.security.rsa.RSAPrivateCrtKeyImpl@fffe2e7c
+2020-04-06 18:42:00.384  INFO 17060 --- [http-nio-20006-exec-1] c.s.j.c.JWSAPIRequestController          : Digital signature successfully done for API request.
+2020-04-06 18:42:27.601  INFO 17060 --- [http-nio-20006-exec-2] c.s.j.c.JWSAPIRequestController          : header-key-id => b26435f3-5ffb-435f-9f5f-86e45451500f
+2020-04-06 18:42:27.602  INFO 17060 --- [http-nio-20006-exec-2] c.s.j.c.JWSAPIRequestController          : payload => text
+2020-04-06 18:42:27.605  INFO 17060 --- [http-nio-20006-exec-2] c.s.j.c.JWSAPIRequestController          : sun.security.rsa.RSAPrivateCrtKeyImpl@fffe2e7c
+2020-04-06 18:42:27.626  INFO 17060 --- [http-nio-20006-exec-2] c.s.j.c.JWSAPIRequestController          : Digital signature successfully done for API request.
+2020-04-06 18:43:02.552  INFO 17060 --- [http-nio-20006-exec-3] c.s.j.c.JWSAPIRequestController          : header-key-id => b26435f3-5ffb-435f-9f5f-86e45451500f
+2020-04-06 18:43:02.553  INFO 17060 --- [http-nio-20006-exec-3] c.s.j.c.JWSAPIRequestController          : payload => text
+2020-04-06 18:43:02.556  INFO 17060 --- [http-nio-20006-exec-3] c.s.j.c.JWSAPIRequestController          : sun.security.rsa.RSAPrivateCrtKeyImpl@fffe2e7c
+2020-04-06 18:43:02.576  INFO 17060 --- [http-nio-20006-exec-3] c.s.j.c.JWSAPIRequestController          : Digital signature successfully done for API request.
+2020-04-06 18:44:08.496  INFO 17060 --- [http-nio-20006-exec-5] c.s.j.c.JWSAPIRequestController          : header-key-id => b26435f3-5ffb-435f-9f5f-86e45451500f
+2020-04-06 18:44:08.497  INFO 17060 --- [http-nio-20006-exec-5] c.s.j.c.JWSAPIRequestController          : jwt => eyJraWQiOiJiMjY0MzVmMy01ZmZiLTQzNWYtOWY1Zi04NmU0NTQ1MTUwMGYiLCJhbGciOiJSUzI1NiJ9.eyJwYXlsb2FkIjoidGV4dCJ9.X57RfCxG79kvnKEGdEucoIPcQKQGM3ON-nfFDNkn2r_0qwAv1SAAeAly2ZDPGxLGtgRFbVpD0e_GNOLsG97RBGUn9fzGiGRcju3Eq7YqxZzeeZ1qY3X5OvebcmXd3dQmlIalFYSZJidtA-KEEjw4YuZ6-u0t-T25NTqHOikuxbUxSU5B10jl6H5XBF5kwHUBZI89qremDb72dEv4pyseJkQgviEhYoq8T6KKtcUYlOUo7sWyHF8ZIGKPNm_QpnLlvy-IWNRpLFQpqXRnIfZj_9bV485tKhkHqYwa8zHaDdXZ2yLobZSZj2IHotSDY0keAdRKI91ADNhB-DQceIq2_w
+2020-04-06 18:44:08.501  INFO 17060 --- [http-nio-20006-exec-5] c.s.j.c.JWSAPIRequestController          : Sun RSA public key, 2048 bits
+  modulus: 16179793250471701528766133891259493256698038314857421824230153604924103209664581003760825319693615630382114926758813263975462475825750767607213189977799372096144422331174055090520470354859041187720853484558856552671205257850357796627215863338940053304691860222914049372406066016407091362600071876088127563190653311455446530026683232753705820696341839218947680935802109111211167883522039315503105889800973821562898002803062510914914449327362791705371827754951836645335206116861687451301378538427937195891517350124654678599137156020361566408300358141546097731214621690594826861478327212579644861566777679974636729420617
+  public exponent: 65537
+2020-04-06 18:44:08.511  INFO 17060 --- [http-nio-20006-exec-5] c.s.j.c.JWSAPIRequestController          : JWS validation succeeded! JWT Claims Set:{payload=text}
+2020-04-06 18:58:16.346  INFO 17060 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
